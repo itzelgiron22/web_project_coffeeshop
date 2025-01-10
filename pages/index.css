@@ -15,6 +15,10 @@
   background-position: center;
   min-height: 720px;
   max-height: 800px;
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
 }
 
 .nav__logo {
@@ -64,7 +68,7 @@
   color: #000000;
 }
 
-.header__descripton {
+.header__description {
   max-width: 683px;
   margin: auto auto auto 80px;
 }
@@ -73,14 +77,19 @@
   position: absolute;
   top: 124px;
   right: 5px;
+  bottom: auto;
   width: 646px;
   height: 568px;
 }
 
 .header__footer {
-  position: absolute;
-  bottom: 40px;
-  left: 80px;
+  align-content: end;
+  margin: auto auto 40px 80px;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-content: end;
   font-family: "Noto Serif", Times, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -89,21 +98,20 @@
   color: #6f6f6f;
 }
 
-.header__schedules {
+.header__paragraph {
   margin-top: 0;
   margin-bottom: 0;
-  padding: 0;
-}
-
-.header__paragraph {
   color: #6f6f6f;
-  position: absolute;
-  bottom: 40px;
-  right: 80px;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
   color: #838383;
+}
+
+.header__footer-adress {
+  align-content: end;
+  margin: auto 80px 40px auto;
+  z-index: 1;
 }
