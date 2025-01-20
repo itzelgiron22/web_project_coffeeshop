@@ -215,11 +215,11 @@
   max-width: 385px;
 }
 
-.form__imput-text {
+.reservation__form-text {
   border: none;
 }
 
-.form__label {
+.reservation__form-label {
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -227,7 +227,7 @@
   line-height: 20px;
 }
 
-.form__item {
+.reservation__form-item {
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -239,7 +239,7 @@
   width: 100%;
 }
 
-.form__buttom {
+.reservation__form-buttom {
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -259,14 +259,14 @@
   opacity: 70%;
 }
 
-.form__checkbox {
+.reservation__form-checkbox {
   height: 20px;
   width: 20px;
   margin: auto 12px 0 auto;
   border-radius: 2px;
 }
 
-.form__check {
+.reservation__form-check {
   justify-content: center;
   border: none;
 }
