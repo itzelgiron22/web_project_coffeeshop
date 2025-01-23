@@ -36,7 +36,7 @@
 
         <h1 class="header__title">
           Café de especialidad
-          <span class="header__title header___title-span">en Triple Peaks</span>
+          <span class="header__title header__title-span">en Triple Peaks</span>
         </h1>
         <p class="header__description">
           ¡Te damos la bienvenida a nuestra zona de estudio! Aquí tenemos café
@@ -110,74 +110,60 @@
         </section>
         <section id="reservation" class="reservation">
           <h2 class="reservation__title">Reservar una mesa</h2>
-          <form class="reservation__form form__reservation">
-            <fieldset class="form__reservation form__reservation-text">
-              <label
-                for="name"
-                class="form__reservation form__reservation-label"
+          <form class="form reservation__form">
+            <fieldset class="form form__text">
+              <label for="name" class="form__text form__text-label"
                 >Nombre *
               </label>
               <input
                 type="text"
                 id="name"
-                class="form__reservation form__reservation-item"
+                class="form__text form__text-item"
                 placeholder="Nombre"
                 required
               />
-              <label
-                for="form-number"
-                class="form__reservation form__reservation-label"
+              <label for="form-number" class="form__text form__text-label"
                 >Número de comensales *</label
               >
               <input
                 type="number"
                 id="form-number"
-                class="form__reservation form__reservation-item"
+                class="form__text form__text-item"
                 min="1"
                 max="8"
                 placeholder="1-8"
                 required
               />
-              <label
-                for="form-date"
-                class="form__reservation form__reservation-label"
+              <label for="form-date" class="form__text form__text-label"
                 >Fecha y hora *</label
               >
               <input
                 type="datetime-local"
                 id="form-date"
-                class="form__reservation form__reservation-item"
+                class="form__text form__text-item"
                 required
               />
-              <label
-                for="form-email"
-                class="form__reservation form__reservation-label"
+              <label for="form-email" class="form__text form__text-label"
                 >Tu correo electrónico *</label
               >
               <input
                 type="text"
                 id="form-email"
-                class="form__reservation form__reservation-item"
+                class="form__text form__text-item"
                 placeholder="email@email.com"
                 required
               />
             </fieldset>
 
-            <button
-              type="submit"
-              class="form__reservation form__reservation-button"
-            >
+            <button type="submit" class="form__text form__text-button">
               Reservar una mesa
             </button>
-            <fieldset class="form__reservation form__reservation-check">
-              <label
-                for="form-check"
-                class="form__reservation form__reservation-label"
-              >
+            <fieldset class="form__text form__text-check">
+              <label for="form-check" class="form__text form__text-label">
                 <input
                   type="checkbox"
                   id="form-check"
-                  class="form__reservation form__reservation-checkbox"
+                  class="form__text form__text-checkbox"
                   required
                 />
                 Acepto los términos de uso
